@@ -30,10 +30,11 @@
     "react-native-svg-transformer": "^1.0.0",
     "react-native-swiper": "^1.6.0",
     "react-native-web": "0.17.7",
-    "styled-components": "^5.3.5"
+    "tailwindcss-react-native": "^1.7.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "tailwindcss": "^3.1.5"
   },
   "private": true
 }

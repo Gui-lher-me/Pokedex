@@ -1,15 +1,9 @@
-import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export function PokemonButton({ onPress, title }) {
+export function PokemonButton({ onPress, text }) {
   return (
-    <TouchableOpacity
-      style={{
-        backgroundColor: 'lightgreen',
-      }}
-      onPress={onPress}
-    >
-      <Text>{title}</Text>
+    <TouchableOpacity className='' onPress={onPress}>
+      <Text>{text}</Text>
     </TouchableOpacity>
   );
 }
